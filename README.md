@@ -1,4 +1,4 @@
-# soup-landing-page
+# Soup Landing Page
 
 English:
 Hello, this is the landing page that I made, just for implementing my knowledge about HTML/CSS and Javascript
