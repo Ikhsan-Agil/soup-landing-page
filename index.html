@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soup Order Landing Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/5b0a2e9ab0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <span class="content">
+          <h1>Do you want a Soup?</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste fuga
+            aliquid vel! Dicta voluptatum facere eum officiis qui repellat
+            tempora necessitatibus deleniti, nisi quas sapiente recusandae nulla
+            laboriosam itaque consequatur! Ad maiores cumque alias rerum.
+          </p>
+          <button type="submit" class="modal-trigger-1">Pre-Order Now</button>
+        </span>
+        <span class="imgSoup">
+          <img src="assets/img/soup.png" alt="Soup picture" />
+          <p>
+            Photo by
+            <a
+              href="https://unsplash.com/@justjullietta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Julia Kicova</a
+            >
+            on
+            <a
+              href="https://unsplash.com/s/photos/soup?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+        </span>
+      </main>
+      <footer class="media-container">
+        <div class="media-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </footer>
+    </div>
+    <div class="modal-bg-1">
+      <div class="modal-dialog">
+        <div class="modal-container">
+          <div class="modal-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-left">
+              <figure>
+                <img src="assets/img/soup.png" alt="Soup Photo" />
+                <figcaption>
+                  Get the 10%
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-tags"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"
+                    />
+                    <path
+                      d="M5.5 5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"
+                    />
+                  </svg>
+                  Discounts for 50 First Pre-Orders
+                </figcaption>
+              </figure>
+            </div>
+            <div class="modal-body-right">
+              <form action="">
+                <label for="">Email</label>
+                <input type="email" class="form-input" />
+                <label for="">Phone Number</label>
+                <input type="text" class="form-input" />
+                <label for="">Address</label>
+                <textarea
+                  name="address"
+                  id="address"
+                  class="form-input"
+                  cols="0"
+                  rows="0"
+                >
+                </textarea>
+                <label for="">Amount of Order</label>
+                <input type="number" class="form-number" />
+                <button type="submit" class="btn-submit">
+                  Book for The Soup
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

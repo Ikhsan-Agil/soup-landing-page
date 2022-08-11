@@ -1,0 +1,14 @@
+{
+  "name": "soup-landing-page",
+  "version": "1.0.0",
+  "description": "Soup Landing Page for Adding My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ikhsan Agil Kusuma",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1"
+  }
+}
